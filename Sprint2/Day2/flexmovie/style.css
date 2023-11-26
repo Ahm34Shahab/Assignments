@@ -1,0 +1,30 @@
+.big{
+    height:100%;
+    width: 50%;
+    border: 2px solid;
+    display: flex;
+}
+.small#one{
+    height:50%;
+    width: 100%;
+    border: 2px solid; 
+    display: flex;
+}
+.small#two{
+    height:50%;
+    width: 100%;
+    border: 2px solid; 
+    display: flex;
+}
+.small>div{
+    width: 33%;
+    border: 2px solid;
+}
+.small>div>div:nth-child(1){
+    height:70%;
+    width: 100%;
+    border: 2px solid;
+}
+img{
+    width: 100%;
+}
