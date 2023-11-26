@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+body>header>div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #fedfe5;
+    font-weight: lighter;
+}
+body>header>div>h2{
+    margin: 0.5%;
+    padding: 0;
+}
+body>header>div>button{
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5% 1%;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding-top:10px;
+}
+.logo{
+    width: 7%;
+}
+.links{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+.one{
+    color: red;
+}
+.buttons{
+    width:18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#one{
+    color: blue;
+    background-color: lightblue;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#two{
+    color: red;
+    background-color: white;
+    padding: 10px 10px;
+    border-color: red;
+    border-radius: 5px;
+    font-size: 16px;
+}
+main{
+    margin-top: 5%;
+}
+main>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main>div>div:nth-child(1){
+    width: 45%;
+}
+main>div>div:nth-child(2){
+    width: 37.5%;
+}
+main>div>div:nth-child(1)>h1{
+    margin: 0;
+    font-size: 65px;
+    color:#6f71cc;
+}
+h3{
+    margin: 8px;
+    font-size: 30px;
+}
+main>div>div:nth-child(1)>button{
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+    padding: 2% 2%;
+}
+#video{
+    border-color: blue;
+    border-radius: 6px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+footer{
+    background-color:#3570e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5%;
+    padding-bottom: 1%;
+}
+footer>h1{
+    margin: 1%;
+    padding: 0;
+    color: white;
+    font-size: 40px;
+}
+footer>div{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer>div>div{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.span{
+    margin: 1%;
+    padding: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: 1000;
+}
